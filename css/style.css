@@ -1,0 +1,53 @@
+/* GLOBAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+/* MAIN */
+main .box{
+  position: relative;
+  height: 100vh;
+}
+
+.box .content{
+  width: 50%;
+}
+
+.box .content img{
+  width: 100%
+}
+
+.box .text{
+  text-align: center;
+  font-size: 2em;
+  font-weight: 900;
+  text-transform: uppercase;
+  word-spacing: 20px;
+}
+
+#shoes-1{
+  padding-left: 30%;
+  padding-top: 10%;
+  background-color: red;
+  color: yellow;
+}
+
+#shoes-2{
+  padding-left: 30%;
+  padding-top: 10%;
+  background-color: green;
+  color: yellow;
+}
+
+#shoes-3{
+  padding-left: 30%;
+  padding-top: 10%;
+  background-color: yellow;
+  color: green;
+}
